@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Guía Rápida</title>
+  
+    <link rel="shortcut icon" href="../_static/ci-icon.ico"/>
+  
+    <link rel="stylesheet" href="../_static/css/citheme.css" type="text/css" />
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    
+        <link rel="next" title="Mas Usados" href="../html/index.html"/>
+        <link rel="prev" title="CodeIgniter User Guide" href="../index.html"/> 
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div id="nav">
+  <div id="nav_inner">
+    
+      <div id="pulldown-menu" class="ciNav">
+        <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Git</a></li>
+</ul>
+      </div>
+    
+      
+  </div>
+</div>
+<div id="nav2">
+  <a href="#" id="openToc">
+    <img src="data:image/jpeg;base64,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" title="Toggle Table of Contents" alt="Toggle Table of Contents" />
+  </a>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="../index.html" class="fa fa-home"> Guía Rápida</a>
+        
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+<div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+    <ul class="current">
+        <li class="toctree-l1 current"><a class="current reference internal" href="#">Bienvenido a GIT</a></li>
+    </ul>
+    <ul class="current">
+            <li class="toctree-l1"><a class="current reference internal" href="../html/index.html">HTML</a></li>
+    </ul>
+    <ul class="current">
+        <li class="toctree-l1"><a class="current reference internal" href="../php/index.html">PHP</a></li>
+    </ul>
+
+</div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Guía Rápida</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Temas</a> &raquo;</li>
+      
+    <li>Bienveniodo a GIT</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+    <div style="float:right;margin-left:5px;" id="closeMe">
+      <img title="Classic Layout" alt="classic layout" src="data:image/gif;base64,R0lGODlhFAAUAJEAAAAAADMzM////wAAACH5BAUUAAIALAAAAAAUABQAAAImlI+py+0PU5gRBRDM3DxbWoXis42X13USOLauUIqnlsaH/eY6UwAAOw==" />
+    </div>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="welcome-to-codeigniter">
+<h1>Bienveniodo a GIT</h1>
+<ul class="simple">
+<li><h2>Configurando.</h2></li>
+<li>Sets the name you want attached to your commit transactions:<br> <code><span class="pre">$ git config user.name "name"</span></code></li>
+<li>Sets the email you want attached to your commit transactions:<br> <code><span> $ git config --global user.email "email address"</span></code></li>
+<li>Enables helpful colorization of command line output:<br> <code><span class="pre"> $ git config --global color.ui auto</span></code></li>
+<li><h2>Creando repositorios.</h2></li>
+<li>Creates a new local repository with the specified name:<br> <code><span class="pre"> $ git init [project-name]</span></code></li>
+<li>Downloads a project and its entire version history:<br> <code><span class="pre"> $ git clone [url]</span></code></li>
+<li><h2>Haciendo cambios.</h2></li>
+<li>Lists all new or modified files to be committed:<br> <code><span class="pre"> $ git status</span></code></li>
+<li>Shows file differences not yet staged:<br> <code><span class="pre"> $ git diff</span></code></li>
+<li>Snapshots the file in preparation for versioning:<br> <code><span class="pre"> $ git add [file]</span></code></li>
+<li>Shows file differences between staging and the last file version:<br> <code><span class="pre"> $ git diff --staged</span></code></li>
+<li>Unstages the file, but preserve its contents:<br> <code><span class="pre"> $ git reset [file]</span></code></li>
+<li>Records file snapshots permanently in version history:<br> <code><span class="pre"> $ git commit -m "[descriptive message]"</span></code></li>
+<li><h2>Ramas.</h2></li>
+<li>Lists all local branches in the current repository:<br> <code><span class="pre"> $ git branch</span></code></li>
+<li>Creates a new branch:<br> <code><span class="pre"> $ git branch [branch-name]</span></code></li>
+<li>Switches to the specified branch and updates the working directory:<br> <code><span class="pre"> $ git checkout [branch-name]</span></code></li>
+<li>Combines the specified branch’s history into the current branch:<br> <code><span class="pre"> $ git merge [branch]</span></code></li>
+<li>Deletes the specified branch:<br> <code><span class="pre"> $ git branch -d [branch-name]</span></code></li>
+<li><h2>Arreglando archivos.</h2></li>
+<li>Deletes the file from the working directory and stages the deletion:<br> <code><span class="pre"> $ git rm [file]</span></code></li>
+<li>Removes the file from version control but preserves the file locally:<br> <code><span class="pre"> $ git rm --cached [file]</span></code></li>
+<li>Changes the file name and prepares it for commit:<br> <code><span class="pre"> $ git mv [file-original] [file-renamed]</span></code></li>
+<li><h2>Ignorando archivos.</h2></li>
+<li>A text file named .gitignore suppresses accidental versioning of
+files and paths matching the specified patterns:<br> <code><span class="pre">
+	 *.log<br>
+build/<br>
+temp-*</span></code></li>
+<li>Lists all ignored files in this project:<br> <code><span class="pre"> $ git ls-files --other --ignored --exclude-standard</span></code></li>
+<li><h2>Salvando fragmentos.</h2></li>
+<li>Temporarily stores all modified tracked files:<br> <code><span class="pre"> $ git stash</span></code></li>
+<li>Restores the most recently stashed files:<br> <code><span class="pre"> $ git stash pop</span></code></li>
+<li>Lists all stashed changesets:<br> <code><span class="pre"> $ git stash list</span></code></li>
+<li>Discards the most recently stashed changeset:<br> <code><span class="pre"> $ git stash drop</span></code></li>
+<li><h2>Revisando el historial.</h2></li>
+<li>Lists version history for the current branch:<br> <code><span class="pre"> $ git log</span></code></li>
+<li>Lists version history for a file, including renames:<br> <code><span class="pre"> $ git log --follow [file]</span></code></li>
+<li>Shows content differences between two branches:<br> <code><span class="pre"> $ git diff [first-branch]...[second-branch]</span></code></li>
+<li>Outputs metadata and content changes of the specified commit:<br> <code><span class="pre"> $ git show [commit]</span></code></li>
+<li><h2>Borrando Commits.</h2></li>
+<li>Undoes all commits after [commit] , preserving changes locally:<br> <code><span class="pre"> $ git reset [commit]</span></code></li>
+<li>Discards all history and changes back to the specified commit:<br> <code><span class="pre"> $ git reset --hard [commit]</span></code></li>
+<li><h2>Sincronizando cambios.</h2></li>
+<li>Downloads all history from the repository bookmark:<br> <code><span class="pre"> $ git fetch [bookmark]</span></code></li>
+<li>Combines bookmark’s branch into current local branch:<br> <code><span class="pre"> $ git merge [bookmark]/[branch]</span></code></li>
+<li>Uploads all local branch commits to GitHub:<br> <code><span class="pre"> $ git push [alias] [branch]</span></code></li>
+<li>Downloads bookmark history and incorporates changes:<br> <code><span class="pre"> $ git pull</span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+<li>:<br> <code><span class="pre"> </span></code></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../html/index.html" class="btn btn-neutral float-right" title="HTML">Siguiente <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral" title="Guía Rápida"><span class="fa fa-arrow-circle-left"></span> Anterior</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        Tronconal V, Barcelona Anzoátegui, República Bolivariana de Venezuela.
+      Última actualización en Jun 19, 2019.
+    </p>
+  </div>
+
+  Guia Construida usando la <a href="https://codeigniter.com/user_guide/">Guia de usuario</a> de <a href="https://codeigniter.com">CodeIgniter</a>, por Alexander y Gabriel López.
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+<script type="text/javascript" src="../_static/jquery.js"></script>
+<script type="text/javascript" src="../_static/underscore.js"></script>
+<script type="text/javascript" src="../_static/doctools.js"></script>
+<script type="text/javascript" src="../_static/js/theme.js"></script>
+ <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+
+</body>
+</html>
